@@ -127,7 +127,7 @@ h1 {
 }
 
 .carousel-inner {
-  height: 255px;
+  height: 285px;
 }
 
 .quote-text-container {
@@ -176,7 +176,7 @@ h1 {
   transition: all .3s ease-in-out;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 .learn-more:hover {
