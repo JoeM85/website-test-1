@@ -89,6 +89,10 @@ body {
   }
 }
 
+.nav-item {
+  padding: 10px;
+}
+
 .diffusion-sub-title {
   color: $dark-grey;
   font-size: 38px;
@@ -113,9 +117,8 @@ body {
 //   position: relative;
 //   z-index: 999;
 // }
-
-.logo:hover {
-  cursor: pointer;
+.navbar-brand:hover {
+  cursor: pointer !important;
 }
 
 // .links {
@@ -129,7 +132,6 @@ body {
 
 .link {
   display: inline;
-  // padding-left: 3%;
   font-weight: bold;
   font-size: 16px;
 }

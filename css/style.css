@@ -56,6 +56,10 @@ body {
   color: #0076a3;
 }
 
+.nav-item {
+  padding: 10px;
+}
+
 .diffusion-sub-title {
   color: #5e5352;
   font-size: 38px;
@@ -74,8 +78,8 @@ body {
   margin-bottom: -6%;
 }
 
-.logo:hover {
-  cursor: pointer;
+.navbar-brand:hover {
+  cursor: pointer !important;
 }
 
 .link {
