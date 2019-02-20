@@ -1,7 +1,9 @@
-$dark-blue: #005D81;
+$dark-grey: #005D81;
 $light-blue: #00AEEF;
-$dark-grey: rgb(100, 100, 100);
-$dark-grey: rgb(94, 83, 82);
+$dark-grey: rgb(104, 95, 95);
+//$dark-grey: rgb(94, 83, 82);
+// $dark-grey: rgb(41, 77, 117);
+//$dark-grey: rgb(30, 59, 92);
 
 #particles-js {
   position: absolute;
@@ -145,8 +147,7 @@ h1 {
   margin-bottom: 5%;
   font-weight: 400;
   font-size: 70px;
-  color: $dark-blue;
-  color: rgb(100, 100, 100);
+  color: $dark-grey;
 }
 
 .main-text-container {
@@ -180,7 +181,11 @@ h1 {
 }
 
 .carousel-item {
-  margin-top: 8%;
+  margin-top: 8% !important;
+}
+
+.carousel-inner {
+  height: 255px;
 }
 
 .quote-text-container {
