@@ -134,16 +134,25 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 });
 
 
-  $(document).ready(function() {
-/* show lightbox when clicking a thumbnail */
-    $('a.thumb').click(function(event){
-      event.preventDefault();
-      var content = $('.modal-body');
-      content.empty();
-        var title = $(this).attr("title");
-        $('.modal-title').html(title);
-        content.html($(this).html());
-        $(".modal-profile").modal({show:true});
-    });
-
+$(document).ready(function () {
+  $('.customer-logos').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1750,
+    arrows: false,
+    dots: false,
+    pauseOnHover: true,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 3
+      }
+    }]
   });
+});
