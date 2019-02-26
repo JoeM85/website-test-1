@@ -230,6 +230,11 @@ h1 {
   background-color: #0076a3;
 }
 
+.real-time-platform-img {
+  max-width: 80%;
+  margin-left: 2.8%;
+}
+
 .icon-container {
   margin-top: 26%;
   margin-bottom: 13%;
@@ -354,13 +359,8 @@ h1 {
           transform: opacity .2s;
 }
 
-.real-time-platform-img {
-  max-width: 80%;
-  margin-left: 2.7%;
-}
-
 #contact-us-section {
-  padding-bottom: 15%;
+  padding-bottom: 10%;
 }
 
 .contact-us-container:nth-child(1) {
