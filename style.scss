@@ -237,7 +237,6 @@ h1 {
 //Real-time
 
 .icon-container {
-  //padding: 26% 0 13% 0;
   margin-top: 26%;
   margin-bottom: 13%;
 }
@@ -323,8 +322,6 @@ h1 {
   font-size: 18px;
 }
 
-
-
 .case-study-container:hover .overlay {
   height: 100%;
 }
@@ -361,6 +358,7 @@ h1 {
 
 .real-time-platform-img {
   max-width: 80%;
+  margin-left: 2.7%;
 }
 
 //Contact Us Section
@@ -453,6 +451,12 @@ footer {
 }
 
 //Customer Logo Slider Section
+
+.customer-logos {
+  position: relative;
+  z-index: 9999;
+}
+
 .slick-slide {
   margin: 0px 20px;
 }

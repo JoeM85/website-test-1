@@ -356,6 +356,7 @@ h1 {
 
 .real-time-platform-img {
   max-width: 80%;
+  margin-left: 2.7%;
 }
 
 #contact-us-section {
@@ -452,6 +453,11 @@ footer {
 
 .copy-right {
   font-size: 12px;
+}
+
+.customer-logos {
+  position: relative;
+  z-index: 9999;
 }
 
 .slick-slide {
