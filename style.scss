@@ -458,7 +458,7 @@ footer {
 }
 
 .slick-slide img {
-  width: 70%;
+  width: 55%;
 }
 
 .customer-logos {
@@ -544,6 +544,7 @@ footer {
 
 .slick-slide img {
   display: block;
+  margin: 0 auto;
 }
 
 .slick-slide.slick-loading img {
@@ -571,13 +572,3 @@ footer {
 .slick-arrow.slick-hidden {
   display: none;
 }
-
-.slide {
-  //display: flex !important;
-  // align-content: center;
-  // align-items: center;
-}
-
-// .slide img {
-//   margin: auto;
-// }

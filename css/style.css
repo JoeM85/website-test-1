@@ -459,7 +459,7 @@ footer {
 }
 
 .slick-slide img {
-  width: 70%;
+  width: 55%;
 }
 
 .customer-logos {
@@ -548,6 +548,7 @@ footer {
 
 .slick-slide img {
   display: block;
+  margin: 0 auto;
 }
 
 .slick-slide.slick-loading img {
