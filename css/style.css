@@ -162,7 +162,7 @@ h1 {
   background-size: 1220px;
   background-size: 1320px;
   background-color: #e6e7e9;
-  height: 90vh;
+  min-height: 91vh;
   padding-bottom: 3%;
 }
 
