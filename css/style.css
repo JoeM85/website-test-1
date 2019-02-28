@@ -100,11 +100,11 @@ body {
   background-color: white;
 }
 
-.logo {
+.nav-logo {
   width: 75%;
 }
 
-.logo:hover {
+.nav-logo:hover {
   cursor: pointer;
 }
 
@@ -113,11 +113,13 @@ body {
   z-index: 999;
   font-weight: bold;
   font-size: 18px;
-  color: #00AEEF;
+  color: #00AEEF !important;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 .nav-link:hover {
-  color: #0076a3;
+  color: #0076a3 !important;
 }
 
 .nav-item {
@@ -499,5 +501,148 @@ footer {
 
 .copy-right {
   font-size: 12px;
+}
+
+@media only screen and (max-width: 1120px) {
+  p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .main-text-container {
+    padding-top: 3%;
+  }
+  .slide img {
+    width: 73%;
+  }
+  .icon-title {
+    font-size: 26px;
+  }
+  #ebook-section {
+    padding: 5% 0 10% 0;
+  }
+  #case-studies-section {
+    padding: 5% 0 1% 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-logo {
+    width: 56%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .main-text-container {
+    padding-top: 12%;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin-bottom: 8%;
+  }
+  .section-title {
+    padding-top: 8%;
+  }
+  #real-time-platform-section {
+    padding-bottom: 10%;
+  }
+  .icon-container {
+    margin-top: 24%;
+    margin-bottom: 8%;
+  }
+  .icon-row .col-md-4:nth-child(2) .icon-container {
+    margin-top: 24%;
+  }
+  .case-study-container {
+    margin-bottom: 16%;
+  }
+  .ebook-container {
+    margin-bottom: 12%;
+  }
+  #ebook-section {
+    padding-bottom: 10%;
+  }
+  .contact-us-container {
+    margin-bottom: 10%;
+  }
+  .footer-logo {
+    width: 55%;
+  }
+  .fab {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .nav-logo {
+    width: 48%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .main-text-container {
+    padding-top: 12%;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin-bottom: 14%;
+  }
+  .section-title {
+    padding-top: 8%;
+  }
+  .real-time-platform-img {
+    margin: 5% 0 10% 0;
+  }
+  .icon-container {
+    margin-top: 5%;
+  }
+  .icon-title {
+    padding-bottom: 2%;
+  }
+  .icon-row .col-md-4:nth-child(2) .icon-container {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  .ebook-container {
+    margin-bottom: 8%;
+  }
+  #ebook-section {
+    padding-bottom: 14%;
+  }
+  .case-study-container {
+    margin-top: 0%;
+    margin-bottom: 18%;
+  }
+  .contact-us-container {
+    margin-bottom: 16%;
+  }
+  #footer {
+    font-size: 12px;
+  }
+  .footer-logo {
+    width: 50%;
+  }
+  .social-icons-container {
+    padding: 2% 0 5% 0;
+  }
+  .fab {
+    font-size: 12px;
+  }
+  .footer-link-container {
+    padding: 0;
+  }
+  .address-text {
+    margin-bottom: 16%;
+  }
+  .copy-right {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
