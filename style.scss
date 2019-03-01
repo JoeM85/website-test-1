@@ -150,10 +150,9 @@ body {
 //Main Content Section
 
 #main-page-container {
-  background-image: url(../main-bg.jpg);
+  background-image: url(../world-web-main-bg.jpg);
   width: 100vw;
   background-position: 50% 10%;
-  // background-position: center;
   background-repeat: no-repeat;
   background-size: 1020px;
   background-color: #e6e7e9;
@@ -349,9 +348,15 @@ body {
 }
 
 .ebook-container {
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
+.ebook-img {
+  width: 20%;
+  -webkit-box-shadow: 0px 5px 12px 0px rgb(204, 204, 204);
+  -moz-box-shadow: 0px 5px 25px 0px rgba(194, 194, 194, 1);
+  box-shadow: 0px 5px 12px 0px rgb(207, 207, 207);
+}
 
 //Case Studies Section
 
