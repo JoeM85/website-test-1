@@ -340,11 +340,40 @@ body {
 }
 
 .ebook-container {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
   margin-bottom: 4%;
 }
 
+/* .ebook-container:hover .ebook-overlay {
+  height: 100%;
+}
+
+.ebook-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #F8FDFF;
+  overflow: hidden;
+  width: 100%;
+  height: 0%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-transform: opacity .2s;
+  transform: opacity .2s;
+}
+
+.ebook-container:hover .ebook-description {
+  opacity: 1;
+} */
+
+
 .ebook-img {
-  width: 20%;
+  width: 30%;
   -webkit-box-shadow: 0px 5px 12px 0px #cccccc;
   box-shadow: 0px 5px 12px 0px #cfcfcf;
 }
