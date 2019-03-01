@@ -340,16 +340,13 @@ body {
 }
 
 .ebook-container {
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
   margin-bottom: 4%;
 }
 
-/* .ebook-container:hover .ebook-overlay {
-  height: 100%;
+.ebook-img {
+  width: 20%;
+  -webkit-box-shadow: 0px 5px 12px 0px #cccccc;
+  box-shadow: 0px 5px 12px 0px #cfcfcf;
 }
 
 .ebook-overlay {
@@ -367,16 +364,10 @@ body {
   transform: opacity .2s;
 }
 
-.ebook-container:hover .ebook-description {
-  opacity: 1;
-} */
-
-
-.ebook-img {
-  width: 30%;
-  -webkit-box-shadow: 0px 5px 12px 0px #cccccc;
-  box-shadow: 0px 5px 12px 0px #cfcfcf;
+.case-study-container:hover .ebook-overlay {
+  height: 100%;
 }
+
 
 .case-study-container {
   position: relative;
@@ -389,6 +380,7 @@ body {
   margin-bottom: 30%;
   -webkit-box-shadow: 0px 5px 12px 0px #cccccc;
   box-shadow: 0px 5px 12px 0px #cfcfcf;
+  margin-bottom: 5%;
 }
 
 .case-study-btn-container {
